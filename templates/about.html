@@ -1,0 +1,25 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block title %}Heliography | About{% endblock%}
+
+{% block content %}
+<div class="about-section">
+<div class=" bg-about-img "style="background-image:url({% static 'images/bg-img.jpg'%})">
+  <div class="container bg-about-text">
+      <h2 class=" display-5  text-center text-danger mt-5 mb-4">Welcome to Heliography Studio</h2>
+         <p class="text-center text-black p-2 fs-5">We specialize in capturing life’s most precious moments and
+             turning them into timeless memories. From the joy of a baby shower to the elegance of a wedding,
+             the laughter of a birthday, or the warmth of a reunion.
+             we ensure every emotion is beautifully preserved.
+         <p>
+         <h4 class="mx-4 text-primary">Our Services</h4>
+          <ul class="list-unstyled">
+            <li class="lh-base p-1 mx-5"><span class="text-danger fw-bold">Weddings -</span> Eternalize your big day with stunning photography and videography<li>
+            <li class="lh-base p-1 mx-5"><span class="text-danger fw-bold">Baby Showers -</span> Celebrate the beginning of a new journey with heartfelt captures.<li>
+            <li class="lh-base p-1 mx-5"><span class="text-danger fw-bold">Birthdays -</span> From first birthdays to milestones, we frame your happiest moments.<li>
+            <li class="lh-base p-1 mx-5"><span class="text-danger fw-bold">Reunions -</span> Relive bonds and togetherness through unforgettable portraits.<li>
+            </div>
+            </div>
+          </div>
+{% endblock %}
