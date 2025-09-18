@@ -13,6 +13,7 @@ db.sqlite3
 /staticfiles/
 /media/
 
+
 # IDE/editor stuff
 *.log
 *.pot
